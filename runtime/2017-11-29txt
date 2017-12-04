@@ -1,0 +1,1 @@
+Unknown: mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 47
