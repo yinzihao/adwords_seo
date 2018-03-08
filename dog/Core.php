@@ -49,6 +49,13 @@ function error_handler($error_level, $error_message, $file, $line) {
 }
 set_error_handler('error_handler');
 
+register_shutdown_function("super_error_handler");
+function super_error_handler(){
+	register_shutdown_function("super_error_handler");
+	echo 'resart...';
+	\dog\App::run(empty($GLOBALS['argv'])?array():$GLOBALS['argv']);
+}
 
 \dog\library\Loader::register();
 \dog\App::run(empty($argv)?array():$argv);
+$GLOBALS['argv'] = empty($argv)?array():$argv;

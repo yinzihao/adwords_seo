@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 //设置时区：等于date_default_timezone_set('PRC') 表示中国区
 ini_set('date.timezone','Asia/Shanghai');
 

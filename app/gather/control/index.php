@@ -137,7 +137,7 @@ class Index extends Control{
 	public function _requestAdwords($user){
 		$date = date('Y-m-d');
 		$db  = new Db();
-		$page_size = 1;
+		$page_size = 500;
 		while ( !empty($data = $db->select("select id as keyword_id,keywords as keyword from adwords_seo where result=0 limit $page_size ")) ){
 			$result = $this->_getKeywordIdeasExample($user,$data);
 
@@ -150,10 +150,20 @@ class Index extends Control{
 			
 			 if($result['status'] === 200){
 				foreach ($result['data'] as $value){
-					$db->execute("update `adwords_seo` set `month_avg`='{$value['month_avg']}', `remarks`='{$value['remarks']}',`value`= {$value['lately_month_volume']},`result`=1,`day`='{$date}' where `id`={$value['keyword_id']} ");
+					$monthly_multi_sql = '';
+					if(!empty($value['monthly_arr'])){
+						for($m=1;$m<=count($value['monthly_arr']);$m++){
+							$monthly_multi_sql.=','.'historical_data_'.$m.'='.$value['monthly_arr'][$m-1];
+						}
+					}
+					$db->execute("update `adwords_seo` set `month_avg`='{$value['month_avg']}', `remarks`='{$value['remarks']}',`value`= {$value['lately_month_volume']},`result`=1,`day`='{$date}'".$monthly_multi_sql." where `id`={$value['keyword_id']} ");
+				}
+				
+				if(!empty($result['keyowrds_ids'])){
+					$db->execute("update `adwords_seo` set `result`=1 where `id` in(".$result['keyowrds_ids'].") ");
 				}
 			}
-			sleep(2);
+			sleep(30);
 			unset($result,$data);
 		}
 		unset($db,$page,$page_size,$date);
@@ -181,9 +191,11 @@ class Index extends Control{
 		// Create seed keyword.
 		$keyword_array = array();
 		$keyword_id_array = array();
+		$keyword_ids = array();
 		foreach ($db_keywords as $value){
 			$keyword_array[] = $value['keyword'];
 			$keyword_id_array[strtolower($value['keyword'])] = $value['keyword_id'];
+			$keyword_ids[] = $value['keyword_id'];
 		}
 		// Create related to query search parameter.
 		$relatedToQuerySearchParameter = new \RelatedToQuerySearchParameter();
@@ -234,18 +246,24 @@ class Index extends Control{
 	
 				$month_arr = array();
 				$monthly_searches = '';
+				$monthly_arr = array();
 				if($data['TARGETED_MONTHLY_SEARCHES']->value !== null){
 					foreach ($data['TARGETED_MONTHLY_SEARCHES']->value as $info) {
+						$monthly_arr[] = $info->count;
 						$monthly_searches.=$info->year.'-'.$info->month.':'.$info->count.';';
 						$month_arr[] = $info->count;
 					}
 				}
 				$month_average  = empty($month_arr)?0:array_sum($month_arr)/count($month_arr);
-				$data_array[] = array('month_avg'=>$month_average,'remarks' => $monthly_searches, 'keyword' => $keyword,'lately_month_volume'=> empty($data['TARGETED_MONTHLY_SEARCHES']->value[0]->count)?0:$data['TARGETED_MONTHLY_SEARCHES']->value[0]->count,'monthly_searches' => $monthly_searches,'keyword_id' => $keyword_id_array[strtolower($keyword)]);
+				if(!empty($data['TARGETED_MONTHLY_SEARCHES']->value[0]->count)){
+					unset($keyword_ids[$keyword_id_array[strtolower($keyword)]]);
+				}
+				
+				$data_array[] = array('monthly_arr'=>$monthly_arr, 'month_avg'=>$month_average,'remarks' => $monthly_searches, 'keyword' => $keyword,'lately_month_volume'=> empty($data['TARGETED_MONTHLY_SEARCHES']->value[0]->count)?0:$data['TARGETED_MONTHLY_SEARCHES']->value[0]->count,'monthly_searches' => $monthly_searches,'keyword_id' => $keyword_id_array[strtolower($keyword)]);
 			}
-			return array('status' => 200,'data' => $data_array);
+			return array('status' => 200,'keyowrds_ids'=>implode(',', $keyword_ids),'data' => $data_array);
 		} else {
-			return array('status' => 0,'data' => "No keywords ideas were found.\n");
+			return array('status' => 0,'keyowrds_ids'=>implode(',', $keyword_ids),'data' => "No keywords ideas were found.\n");
 		}
 	}	
 }

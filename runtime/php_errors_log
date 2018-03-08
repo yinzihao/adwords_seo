@@ -1,0 +1,625 @@
+[07-Dec-2017 16:40:27 Asia/Shanghai] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 14
+[07-Dec-2017 16:40:36 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 13
+[07-Dec-2017 16:42:57 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 13
+[07-Dec-2017 16:45:16 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 13
+[07-Dec-2017 16:45:32 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 13
+[07-Dec-2017 16:47:16 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 13
+[07-Dec-2017 16:47:36 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 13
+[07-Dec-2017 16:47:53 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 13
+[07-Dec-2017 16:47:53 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 13
+[07-Dec-2017 16:48:02 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 13
+[07-Dec-2017 16:48:02 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 13
+[07-Dec-2017 17:17:32 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 14
+[07-Dec-2017 17:18:01 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 14
+[07-Dec-2017 17:18:05 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 14
+[07-Dec-2017 17:19:02 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 14
+[07-Dec-2017 17:20:10 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 14
+[07-Dec-2017 17:20:10 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class \app\index\control\index does not exist' in E:\workspace\work\adwords_seo\dog\App.php:30
+Stack trace:
+#0 E:\workspace\work\adwords_seo\dog\App.php(30): ReflectionClass->__construct('\\app\\index\\cont...')
+#1 E:\workspace\work\adwords_seo\dog\Core.php(55): dog\App::run(Array)
+#2 [internal function]: super_error_handler()
+#3 {main}
+  thrown in E:\workspace\work\adwords_seo\dog\App.php on line 30
+[07-Dec-2017 17:20:28 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 14
+[07-Dec-2017 17:21:13 Asia/Shanghai] PHP Fatal error:  Class 'app\gather\control\fdsfd' not found in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 14
+[07-Dec-2017 17:27:10 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [RateExceededError <rateName=RATE_LIMIT, rateKey=null, rateScope=ACCOUNT, retryAfterSeconds=30>] in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:216
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7140): AdWordsSoapClient->__soapCall('get', Array)
+#3 E:\workspace\work\adwords_seo\app\gather\control\index.php(219): TargetingIdeaService->get(Object(TargetingIdeaSelector))
+#4 E:\workspace\work\adwords_seo\app\gather\control\index.php(142): app\gather\control\Index->_getKeywordIdeasExample(Object(AdWordsUser), Array)
+#5 E:\workspace\work\adwords_seo\app\gather\control\index.php(82): app\gather\control\Index->_r in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 216
+[07-Dec-2017 17:29:10 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [RateExceededError <rateName=RATE_LIMIT, rateKey=null, rateScope=ACCOUNT, retryAfterSeconds=30>] in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:216
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7140): AdWordsSoapClient->__soapCall('get', Array)
+#3 E:\workspace\work\adwords_seo\app\gather\control\index.php(219): TargetingIdeaService->get(Object(TargetingIdeaSelector))
+#4 E:\workspace\work\adwords_seo\app\gather\control\index.php(142): app\gather\control\Index->_getKeywordIdeasExample(Object(AdWordsUser), Array)
+#5 E:\workspace\work\adwords_seo\app\gather\control\index.php(82): app\gather\control\Index->_r in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 216
+[07-Dec-2017 17:43:08 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [RateExceededError <rateName=RATE_LIMIT, rateKey=null, rateScope=ACCOUNT, retryAfterSeconds=30>] in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:216
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7140): AdWordsSoapClient->__soapCall('get', Array)
+#3 E:\workspace\work\adwords_seo\app\gather\control\index.php(223): TargetingIdeaService->get(Object(TargetingIdeaSelector))
+#4 E:\workspace\work\adwords_seo\app\gather\control\index.php(142): app\gather\control\Index->_getKeywordIdeasExample(Object(AdWordsUser), Array)
+#5 E:\workspace\work\adwords_seo\app\gather\control\index.php(82): app\gather\control\Index->_r in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 216
+[07-Dec-2017 17:45:09 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [RateExceededError <rateName=RATE_LIMIT, rateKey=null, rateScope=ACCOUNT, retryAfterSeconds=30>] in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:216
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7140): AdWordsSoapClient->__soapCall('get', Array)
+#3 E:\workspace\work\adwords_seo\app\gather\control\index.php(223): TargetingIdeaService->get(Object(TargetingIdeaSelector))
+#4 E:\workspace\work\adwords_seo\app\gather\control\index.php(142): app\gather\control\Index->_getKeywordIdeasExample(Object(AdWordsUser), Array)
+#5 E:\workspace\work\adwords_seo\app\gather\control\index.php(82): app\gather\control\Index->_r in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 216
+[07-Dec-2017 17:55:59 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [RateExceededError <rateName=RATE_LIMIT, rateKey=null, rateScope=ACCOUNT, retryAfterSeconds=30>] in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:216
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7140): AdWordsSoapClient->__soapCall('get', Array)
+#3 E:\workspace\work\adwords_seo\app\gather\control\index.php(225): TargetingIdeaService->get(Object(TargetingIdeaSelector))
+#4 E:\workspace\work\adwords_seo\app\gather\control\index.php(142): app\gather\control\Index->_getKeywordIdeasExample(Object(AdWordsUser), Array)
+#5 E:\workspace\work\adwords_seo\app\gather\control\index.php(82): app\gather\control\Index->_r in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 216
+[07-Dec-2017 17:58:19 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [RateExceededError <rateName=RATE_LIMIT, rateKey=null, rateScope=ACCOUNT, retryAfterSeconds=30>] in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:216
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7140): AdWordsSoapClient->__soapCall('get', Array)
+#3 E:\workspace\work\adwords_seo\app\gather\control\index.php(225): TargetingIdeaService->get(Object(TargetingIdeaSelector))
+#4 E:\workspace\work\adwords_seo\app\gather\control\index.php(142): app\gather\control\Index->_getKeywordIdeasExample(Object(AdWordsUser), Array)
+#5 E:\workspace\work\adwords_seo\app\gather\control\index.php(82): app\gather\control\Index->_r in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 216
+[07-Dec-2017 18:12:48 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [RateExceededError <rateName=RATE_LIMIT, rateKey=null, rateScope=ACCOUNT, retryAfterSeconds=30>] in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:216
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7140): AdWordsSoapClient->__soapCall('get', Array)
+#3 E:\workspace\work\adwords_seo\app\gather\control\index.php(225): TargetingIdeaService->get(Object(TargetingIdeaSelector))
+#4 E:\workspace\work\adwords_seo\app\gather\control\index.php(142): app\gather\control\Index->_getKeywordIdeasExample(Object(AdWordsUser), Array)
+#5 E:\workspace\work\adwords_seo\app\gather\control\index.php(82): app\gather\control\Index->_r in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 216
+[07-Dec-2017 18:13:19 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [RateExceededError <rateName=RATE_LIMIT, rateKey=null, rateScope=ACCOUNT, retryAfterSeconds=30>] in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:216
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7140): AdWordsSoapClient->__soapCall('get', Array)
+#3 E:\workspace\work\adwords_seo\app\gather\control\index.php(225): TargetingIdeaService->get(Object(TargetingIdeaSelector))
+#4 E:\workspace\work\adwords_seo\app\gather\control\index.php(142): app\gather\control\Index->_getKeywordIdeasExample(Object(AdWordsUser), Array)
+#5 E:\workspace\work\adwords_seo\app\gather\control\index.php(82): app\gather\control\Index->_r in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 216
+[07-Dec-2017 18:20:18 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [RateExceededError <rateName=RATE_LIMIT, rateKey=null, rateScope=ACCOUNT, retryAfterSeconds=30>] in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:216
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7140): AdWordsSoapClient->__soapCall('get', Array)
+#3 E:\workspace\work\adwords_seo\app\gather\control\index.php(232): TargetingIdeaService->get(Object(TargetingIdeaSelector))
+#4 E:\workspace\work\adwords_seo\app\gather\control\index.php(142): app\gather\control\Index->_getKeywordIdeasExample(Object(AdWordsUser), Array)
+#5 E:\workspace\work\adwords_seo\app\gather\control\index.php(82): app\gather\control\Index->_r in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 216
+[07-Dec-2017 18:24:07 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [RateExceededError <rateName=RATE_LIMIT, rateKey=null, rateScope=ACCOUNT, retryAfterSeconds=30>] in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:216
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7140): AdWordsSoapClient->__soapCall('get', Array)
+#3 E:\workspace\work\adwords_seo\app\gather\control\index.php(231): TargetingIdeaService->get(Object(TargetingIdeaSelector))
+#4 E:\workspace\work\adwords_seo\app\gather\control\index.php(142): app\gather\control\Index->_getKeywordIdeasExample(Object(AdWordsUser), Array)
+#5 E:\workspace\work\adwords_seo\app\gather\control\index.php(82): app\gather\control\Index->_r in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 216
+[07-Dec-2017 18:25:10 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [RateExceededError <rateName=RATE_LIMIT, rateKey=null, rateScope=ACCOUNT, retryAfterSeconds=30>] in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:216
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(86): AdsSoapClient->__soapCall('get', Array)
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7140): AdWordsSoapClient->__soapCall('get', Array)
+#3 E:\workspace\work\adwords_seo\app\gather\control\index.php(231): TargetingIdeaService->get(Object(TargetingIdeaSelector))
+#4 E:\workspace\work\adwords_seo\app\gather\control\index.php(142): app\gather\control\Index->_getKeywordIdeasExample(Object(AdWordsUser), Array)
+#5 E:\workspace\work\adwords_seo\app\gather\control\index.php(82): app\gather\control\Index->_r in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 216
+[11-Dec-2017 12:58:21 Asia/Shanghai] PHP Notice:  Failed to load response into DOM: DOMDocument::loadXML(): Empty string supplied as input in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 251
+[11-Dec-2017 12:58:21 Asia/Shanghai] PHP Notice:  Failed to load response into DOM: DOMDocument::loadXML(): Empty string supplied as input in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 348
+[11-Dec-2017 12:58:21 Asia/Shanghai] PHP Notice:  Failed to load response into DOM: DOMDocument::loadXML(): Empty string supplied as input in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 366
+[11-Dec-2017 12:58:21 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:58:30 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:58:36 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:58:41 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:58:47 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:58:52 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:58:58 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:59:04 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:59:09 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:59:15 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:59:20 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:59:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:59:31 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:59:38 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:59:44 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:59:50 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 12:59:56 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:00:03 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:00:11 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:00:18 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:00:24 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:00:32 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:00:39 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:00:46 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:00:55 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:01:03 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:01:12 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:01:21 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:01:30 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:01:42 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:01:56 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:02:05 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:02:14 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:02:25 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:02:34 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:02:45 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:02:55 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:03:04 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:03:16 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:03:24 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:03:33 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:03:44 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:03:53 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:04:04 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:04:13 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:04:23 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:04:32 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:04:43 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:04:57 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:05:08 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:05:18 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:05:29 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:05:40 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:05:52 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:06:02 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:06:11 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:06:19 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:06:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:06:32 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:06:41 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:06:49 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:06:58 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:07:08 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:07:15 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:07:21 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:07:28 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:07:34 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:07:41 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:07:49 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:07:56 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:08:02 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:08:09 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:08:15 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:08:23 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:08:28 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:08:34 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:08:40 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:08:50 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:08:57 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:09:05 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:09:11 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:09:16 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:09:20 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:09:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:09:31 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:09:37 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:09:42 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:09:47 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:09:53 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:10:01 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:10:06 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:10:11 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:10:17 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:10:22 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:10:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:10:33 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:10:39 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:10:45 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:10:50 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:10:55 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:11:00 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:11:05 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:11:11 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:11:17 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:11:23 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:11:29 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:11:35 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:11:40 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:11:47 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:11:51 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:12:00 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:12:05 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:12:10 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:12:16 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:12:21 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:12:27 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:12:32 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:12:38 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:12:43 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:12:49 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:12:54 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:13:00 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:13:06 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:13:12 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:13:17 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:13:23 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:13:28 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:13:33 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:13:39 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:13:48 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:13:52 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:13:58 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:14:03 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:14:11 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:14:17 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:14:22 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:14:28 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:14:33 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:14:39 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:14:45 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:14:51 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:14:58 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:15:04 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:15:10 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:15:16 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:15:22 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:15:27 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:15:33 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:15:38 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:15:44 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:15:50 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:15:57 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:16:02 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:16:08 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:16:14 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:16:19 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:16:25 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:16:31 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:16:38 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:16:48 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:16:57 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:17:02 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:17:08 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:17:14 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:17:20 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:17:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:17:32 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:17:39 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:17:44 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:17:50 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:17:56 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:18:01 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:18:07 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:18:13 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:18:18 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:18:23 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:18:29 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:18:34 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:18:40 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:18:45 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:18:51 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:18:57 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:19:03 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:19:08 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:19:13 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:19:19 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:19:24 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:19:29 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:19:34 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:19:41 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:19:47 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:19:52 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:20:01 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:20:09 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:20:21 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:20:28 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:20:35 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:20:45 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:20:54 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:21:02 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:21:08 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:21:15 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:21:20 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:21:25 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:21:35 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:21:40 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:21:47 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:21:53 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:21:59 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:22:05 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:22:12 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:22:17 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:22:22 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:22:28 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:22:34 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:22:41 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:22:48 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:22:55 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:23:03 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:23:10 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:23:18 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:23:28 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:23:36 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:23:45 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:23:52 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:23:58 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:24:04 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:24:10 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:24:18 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:24:24 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:24:30 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:24:38 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:24:45 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:24:53 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:25:02 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:25:08 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:25:15 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:25:21 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:25:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:25:32 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:25:38 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:25:44 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:25:50 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:25:55 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:01 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:06 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:11 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:17 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:22 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:31 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:37 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:42 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:48 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:52 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:26:57 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:27:03 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:27:09 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:27:14 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:27:20 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:27:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:27:32 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:27:38 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:27:43 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:27:48 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:27:54 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:27:59 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:28:05 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:28:10 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:28:15 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:28:22 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:28:28 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:28:34 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:28:40 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:28:45 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:28:51 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:28:58 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:29:04 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:29:09 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:29:14 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:29:20 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:29:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:29:31 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:29:41 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:29:48 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:29:53 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:29:59 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:30:05 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:30:11 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:30:17 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:30:23 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:30:29 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:30:34 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:30:39 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:30:45 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:30:51 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:30:57 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:31:03 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:31:09 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:31:15 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:31:21 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:31:25 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:31:31 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:31:39 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:31:47 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:31:54 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:32:01 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:32:07 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:32:12 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:32:18 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:32:23 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:32:30 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:32:37 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:32:42 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:32:52 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:33:03 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:33:09 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:33:15 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:33:20 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:33:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:33:31 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:33:35 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:33:41 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:33:47 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:33:52 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:33:57 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:34:03 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:34:11 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:34:17 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:34:23 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:34:30 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:34:37 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:34:42 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:34:49 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:34:55 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:35:02 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:35:08 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:35:14 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:35:20 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:35:25 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:35:32 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:35:38 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:35:44 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:35:49 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:35:56 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:36:02 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:36:07 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:36:14 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:36:20 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:36:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:36:34 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:36:43 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:36:52 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:37:00 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:37:07 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:37:14 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:37:20 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:37:26 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:37:32 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:37:38 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:37:44 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:37:50 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:37:56 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:38:01 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:38:12 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:38:18 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:38:24 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:38:30 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:38:36 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:38:42 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:38:48 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:38:53 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:39:01 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:39:06 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:39:12 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:39:19 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:39:25 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:39:31 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:39:37 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:39:44 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:39:56 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:40:03 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:40:09 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:40:15 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:40:22 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:40:29 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:40:35 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:40:42 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:40:48 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:40:55 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:41:01 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:41:07 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:41:14 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:41:21 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:41:28 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:41:34 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:41:40 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:41:48 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:41:54 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:42:00 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:42:07 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:42:14 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:42:20 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:42:30 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:42:38 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:42:44 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:42:51 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:42:58 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:43:05 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:43:10 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:43:17 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:43:23 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:43:29 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:43:37 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:43:42 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:43:49 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:43:54 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:44:00 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:44:06 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:44:12 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:44:18 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:44:23 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:44:29 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:44:35 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:44:40 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:44:46 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:44:53 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:44:59 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:45:05 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:45:11 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:45:18 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:45:25 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:45:34 Asia/Shanghai] PHP Notice:  Trying to get property of non-object in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php on line 7141
+[11-Dec-2017 13:45:38 Asia/Shanghai] PHP Notice:  Constant SRC_PATH already defined in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 107
+[11-Dec-2017 13:45:38 Asia/Shanghai] PHP Notice:  Constant LIB_PATH_G already defined in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 108
+[11-Dec-2017 13:45:38 Asia/Shanghai] PHP Notice:  Constant UTIL_PATH already defined in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 109
+[11-Dec-2017 13:45:38 Asia/Shanghai] PHP Notice:  Constant ADWORDS_UTIL_PATH already defined in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 110
+[11-Dec-2017 13:45:38 Asia/Shanghai] PHP Notice:  Constant ADWORDS_UTIL_VERSION_PATH already defined in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 111
+[11-Dec-2017 13:45:38 Asia/Shanghai] PHP Notice:  Constant ADWORDS_VERSION already defined in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 113
+[12-Dec-2017 18:17:24 Asia/Shanghai] PHP Parse error:  syntax error, unexpected ';' in E:\workspace\work\adwords_seo\app\gather\control\index.php on line 139
+[12-Dec-2017 18:17:24 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class \app\gather\control\index does not exist' in E:\workspace\work\adwords_seo\dog\App.php:30
+Stack trace:
+#0 E:\workspace\work\adwords_seo\dog\App.php(30): ReflectionClass->__construct('\\app\\gather\\con...')
+#1 E:\workspace\work\adwords_seo\dog\Core.php(56): dog\App::run(Array)
+#2 [internal function]: super_error_handler()
+#3 {main}
+  thrown in E:\workspace\work\adwords_seo\dog\App.php on line 30
+[08-Mar-2018 17:54:54 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'Exception' with message '杩炴帴 MySQL 澶辫触: 由于目标计算机积极拒绝，无法连接。
+' in E:\workspace\work\adwords_seo\dog\db\Db.php:26
+Stack trace:
+#0 E:\workspace\work\adwords_seo\app\gather\control\index.php(90): dog\db\Db->__construct()
+#1 [internal function]: app\gather\control\Index->adwords()
+#2 E:\workspace\work\adwords_seo\dog\App.php(37): ReflectionMethod->invoke(Object(app\gather\control\Index))
+#3 E:\workspace\work\adwords_seo\dog\Core.php(60): dog\App::run(Array)
+#4 E:\workspace\work\adwords_seo\index.php(14): require('E:\\workspace\\wo...')
+#5 {main}
+  thrown in E:\workspace\work\adwords_seo\dog\db\Db.php on line 26
+[08-Mar-2018 17:54:56 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'Exception' with message '杩炴帴 MySQL 澶辫触: 由于目标计算机积极拒绝，无法连接。
+' in E:\workspace\work\adwords_seo\dog\db\Db.php:26
+Stack trace:
+#0 E:\workspace\work\adwords_seo\app\gather\control\index.php(90): dog\db\Db->__construct()
+#1 [internal function]: app\gather\control\Index->adwords()
+#2 E:\workspace\work\adwords_seo\dog\App.php(37): ReflectionMethod->invoke(Object(app\gather\control\Index))
+#3 E:\workspace\work\adwords_seo\dog\Core.php(56): dog\App::run(Array)
+#4 [internal function]: super_error_handler()
+#5 {main}
+  thrown in E:\workspace\work\adwords_seo\dog\db\Db.php on line 26
+[08-Mar-2018 17:55:21 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'Exception' with message '杩炴帴 MySQL 澶辫触: 由于目标计算机积极拒绝，无法连接。
+' in E:\workspace\work\adwords_seo\dog\db\Db.php:26
+Stack trace:
+#0 E:\workspace\work\adwords_seo\app\gather\control\index.php(90): dog\db\Db->__construct()
+#1 [internal function]: app\gather\control\Index->adwords()
+#2 E:\workspace\work\adwords_seo\dog\App.php(37): ReflectionMethod->invoke(Object(app\gather\control\Index))
+#3 E:\workspace\work\adwords_seo\dog\Core.php(60): dog\App::run(Array)
+#4 E:\workspace\work\adwords_seo\index.php(14): require('E:\\workspace\\wo...')
+#5 {main}
+  thrown in E:\workspace\work\adwords_seo\dog\db\Db.php on line 26
+[08-Mar-2018 17:55:23 Asia/Shanghai] PHP Fatal error:  Uncaught exception 'Exception' with message '杩炴帴 MySQL 澶辫触: 由于目标计算机积极拒绝，无法连接。
+' in E:\workspace\work\adwords_seo\dog\db\Db.php:26
+Stack trace:
+#0 E:\workspace\work\adwords_seo\app\gather\control\index.php(90): dog\db\Db->__construct()
+#1 [internal function]: app\gather\control\Index->adwords()
+#2 E:\workspace\work\adwords_seo\dog\App.php(37): ReflectionMethod->invoke(Object(app\gather\control\Index))
+#3 E:\workspace\work\adwords_seo\dog\Core.php(56): dog\App::run(Array)
+#4 [internal function]: super_error_handler()
+#5 {main}
+  thrown in E:\workspace\work\adwords_seo\dog\db\Db.php on line 26
+[08-Mar-2018 17:56:04 Asia/Shanghai] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/o/v201702/TargetingIdeaService?wsdl' : Start tag expected, '<' not found
+ in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 154
+[08-Mar-2018 17:56:06 Asia/Shanghai] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/o/v201702/TargetingIdeaService?wsdl' : Start tag expected, '<' not found
+ in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 154
+[08-Mar-2018 17:56:06 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/o/v201702/TargetingIdeaService?wsdl' : Start tag expected, '<' not found
+ in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:154
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(154): SoapClient->SoapClient('https://adwords...', Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(51): AdsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'TargetingIdeaSe...', 'https://adwords...')
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7117): AdWordsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'TargetingIdeaSe...', 'https://adwords...')
+#3 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\SoapClientFactory.php(161): TargetingIdeaService->__construct('https://adwords...', Array,  in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 154
+[08-Mar-2018 17:56:07 Asia/Shanghai] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/o/v201702/TargetingIdeaService?wsdl' : Start tag expected, '<' not found
+ in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 154
+[08-Mar-2018 17:56:08 Asia/Shanghai] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/o/v201702/TargetingIdeaService?wsdl' : Start tag expected, '<' not found
+ in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 154
+[08-Mar-2018 17:56:08 Asia/Shanghai] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://adwords.google.com/api/adwords/o/v201702/TargetingIdeaService?wsdl' : Start tag expected, '<' not found
+ in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php:154
+Stack trace:
+#0 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php(154): SoapClient->SoapClient('https://adwords...', Array)
+#1 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\Lib\AdWordsSoapClient.php(51): AdsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'TargetingIdeaSe...', 'https://adwords...')
+#2 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\AdWords\v201702\TargetingIdeaService.php(7117): AdWordsSoapClient->__construct('https://adwords...', Array, Object(AdWordsUser), 'TargetingIdeaSe...', 'https://adwords...')
+#3 E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\SoapClientFactory.php(161): TargetingIdeaService->__construct('https://adwords...', Array,  in E:\workspace\work\adwords_seo\lib\Google\Api\Ads\Common\Lib\AdsSoapClient.php on line 154

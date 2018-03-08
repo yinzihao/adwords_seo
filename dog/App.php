@@ -34,6 +34,6 @@ class App{
 			return;
 		}
 		$method = $class_r->getMethod($method_name);
-		echo $method->invoke($control);exit;
+		echo $method->invoke($control);
 	}
 }

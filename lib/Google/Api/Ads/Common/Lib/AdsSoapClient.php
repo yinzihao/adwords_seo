@@ -220,7 +220,7 @@ abstract class AdsSoapClient extends SoapClient {
     } catch (SoapFault $e) {
       $this->ProcessResponse($this->lastRequest,
           $this->__getLastResponse(), $function_name, $e);
-      throw $e;
+      //throw $e;
     }
   }
 

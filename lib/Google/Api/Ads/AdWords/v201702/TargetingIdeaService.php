@@ -7138,7 +7138,13 @@ if (!class_exists("TargetingIdeaService", false)) {
     public function get($selector) {
       $args = new TargetingIdeaServiceGet($selector);
       $result = $this->__soapCall("get", array($args));
-      return $result->rval;
+      //bug 20180205
+      if(isset($result->rval)){
+      	return $result->rval;
+      }else{
+      	return null;
+      }
+      
     }
   }
 }

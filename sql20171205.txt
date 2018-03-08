@@ -1,0 +1,2 @@
+alter table eload_goods_extend add column `goods_nature` varchar(100) NOT NULL DEFAULT '' COMMENT '产品性质ID, 关联表c_product_character_types的ID, 多个用逗号隔开';
+alter table eload_goods_extend add column `is_disable_nature` tinyint(1) NOT NULL DEFAULT 0 COMMENT '是否属于禁发产品性质 0非禁用 1 禁用';
